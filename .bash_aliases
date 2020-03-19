@@ -10,3 +10,5 @@ alias vm='VBoxManage'
 alias lsvm="VBoxManage list vms --long | grep -e \"Name: \" -e \"State: \" | awk '!(NR%2){if (\$2 == \"power\") a=\" \" \$3; print p \": \" \$2 a}{p=\$2}'"
 alias startvm='VBoxManage startvm --type headless'
 alias calc='qalc'
+alias td="mv ~/.bash_tmux ~/.bash_tmux_D"
+alias te="mv ~/.bash_tmux_D ~/.bash_tmux"
