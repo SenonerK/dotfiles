@@ -1,0 +1,14 @@
+[user]
+	name = Kevin Senoner
+	email = kevisen2@gmail.com
+	signingkey = 9AA56CB2188CE7BD
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+[alias]
+	lol = log --decorate --oneline --graph
+	acm = !git add -A && git commit
+	cm = !git commit -m
+	lg = !git log --oneline
+	s = !git status -s
