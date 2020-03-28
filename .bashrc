@@ -120,12 +120,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-	  exec tmux
-fi
-
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/home/kevin/scripts:$PATH"
