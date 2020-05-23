@@ -12,6 +12,9 @@ set tabstop=4
 " Show line numbers
 set number
 
+syntax on
+colo slate
+
 " Remap vsplit shortcuts
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
