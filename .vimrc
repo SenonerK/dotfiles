@@ -32,6 +32,8 @@ call plug#begin('~/.vim/plugged')
 
 " Personal wiki for note-taking ...
 Plug 'vimwiki/vimwiki'
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() }}
 Plug 'Raimondi/delimitMate'
 
 call plug#end()
