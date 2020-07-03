@@ -27,6 +27,15 @@ nnoremap <C-H> <C-W><C-H>
 " Custom-commands
 autocmd FileType vimwiki map md :VimwikiMakeDiaryNote<CR>
 
+" Remaps
+" Plugin FZF
+nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <Leader>f :Rg<CR>
+nnoremap <silent> <Leader>hh :History<CR>
+nnoremap <silent> <Leader>h: :History:<CR>
+nnoremap <silent> <Leader>h/ :History/<CR>
+nnoremap <silent> <Leader>c :Commits
+
 " Plugins
 call plug#begin('~/.vim/plugged')
 
