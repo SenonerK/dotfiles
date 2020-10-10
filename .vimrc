@@ -34,7 +34,7 @@ nnoremap <silent> <Leader>f :Rg<CR>
 nnoremap <silent> <Leader>hh :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
-nnoremap <silent> <Leader>c :Commits
+nnoremap <silent> <Leader>c :Commits<CR>
 
 " Plugins
 call plug#begin('~/.vim/plugged')
@@ -43,6 +43,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vimwiki/vimwiki'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() }}
+Plug 'michal-h21/vim-zettel'
 Plug 'Raimondi/delimitMate'
 
 call plug#end()
